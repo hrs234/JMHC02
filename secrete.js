@@ -1,5 +1,5 @@
 let secrete = a => {
-  if (a.length >= 1000) {
+  if (a.length > 1000) {
     return "ERROR: karakter melebihi dari 1000 karakter";
   }
   let convert = a.split(" ");
